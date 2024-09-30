@@ -2,31 +2,31 @@
 #include <vector>
 using namespace std;
 
-// int main(){
+int main(){
 
-//   vector<int> vec = {};
+  vector<int> vec = {};
 
-//   vec.push_back(10);
-//   vec.push_back(20);
-//   vec.push_back(30);
+  vec.push_back(10);
+  vec.push_back(20);
+  vec.push_back(30);
 
-//   vec.pop_back();
+  // vec.pop_back();
 
-//   cout << "size : " << vec.size() << endl;
+  // cout << "size : " << vec.size() << endl;
 
-//   cout << vec.front() << endl; 
-//   cout << vec.back() << endl; 
+  cout << vec.front() << endl; 
+  cout << vec.back() << endl; 
 
-//   cout << vec.at(0) << endl; 
+  // cout << vec.at(0) << endl; 
   
 
 
-//   for(int i : vec){
-//     cout << i << endl;
-//    }
+  // for(int i : vec){
+  //   cout << i << endl;
+  //  }
 
-//   return 0;
-// }
+  return 0;
+}
 
 // int main(){
 
@@ -134,18 +134,18 @@ using namespace std;
 // }
 
 
-int main(){
+// int main(){
 
-  vector<int>vec= {1,2,3,1,2};
+//   vector<int>vec= {1,2,3,1,2};
 
-  int total = 0;
+//   int total = 0;
 
-  for(int val : vec){
-    total ^= val;
-  }
+//   for(int val : vec){
+//     total ^= val;
+//   }
 
-  cout << "unique value: " << total << endl;
+//   cout << "unique value: " << total << endl;
 
 
-  return 0;
-}
+//   return 0;
+// }
